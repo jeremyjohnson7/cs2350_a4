@@ -1,0 +1,41 @@
+Personal Assignment
+
+This project is for you to create a personal web page about yourself.  You are selling yourself through how you can design a complete web site by using your mad skilz.  The main purpose of this web site is for you to present to future employers the work you can do.  This will be a public facing web page and will be required to be built without using commercial tools or publicly available templates.
+
+You are to create a personal page about what you like to eat.  You are to pretend you are a restaurant owner that applies to your favorite hobby.  You are to describe your restaurant, the location, and the menu of the items you serve.  You should describe yourself (whether true or not) as the owner of the company and who you have employed.  Customers should be able to complete a survey about their experience at your restaurant.  The results should be displayed only as a logged in user.
+
+The web site needs at least 15 main pages with some available to a non-logged in user and at least 5 available to a logged in user.  The logged in user should be able to change the prices of the menu items, add items, and delete items from the menu.  You will need to create a login for 'investor' with a password of 'T3ach123'.  This account will be used for me to test the website as a logged in user.
+
+How the assignment will be graded:
+1. Create a header.php page for each main page – This page is meant to connect the main pages that a customer of the restaurant would need access too.  (5 points)
+   header.php
+
+2. Create a footer.php page for each main page – This page is meant to contain the contact information of your fake restaurant (5 points)
+   footer.php
+
+3. Navigation of each main page that a customer would see.  These pages are that of a menu, a description of your restaurant, the location and about you as the owner and who you employ. You should fill the pages so something does not look like it is missing. (65 points)
+   menu.php, index.php, location.php, about.php
+
+4. Navigation and successful authentication of a user to change the prices of the menu items, add items, and delete items from the menu.  The menu should have at least 40 menu items.  (25 points)
+   login.php, menu.php, menu.php?mode=add, menu.php?mode=edit, menu.php?mode=remove
+
+5. Website should contain and utilize cascading style sheets on each main page (25 points)
+   styles.css
+
+6. Website should contain javascript to check for errors in adding or changing menu items (10 points)
+   validation.js
+
+7. Website should contain javascript to validate the information that is input into the survey form that the customers will fill out.  For example, validate that an email address is an email address and a phone number is a phone number without letters.  Do this for at least 6 of the inputs to the survey. (15 points)
+   validation.js
+
+8. Your website should be evaluated by 2 other students for how the site is designed.  Then you need to apply 2 suggestions that other students have made and turn in how you implemented their suggestions.  (50 points)
+   Chaper 9 Excercises
+
+9. Create at least a 3 minute video introducing you and your website, how you designed it, and what you have learned.  This video should be posted on the site where an unauthenticated or authenticated user to your site has access to it.   (25 points)
+   video.php
+
+10.Give an evaluation for 2 other students websites and offer a suggestion for them to implement.  A copy of these evaluations need to be turned in with your assignment.  (25 points)
+   Chaper 9 Excercises
+
+Be creative and keep it simple.  Remember to fill the pages that are viewable by the customer.
+

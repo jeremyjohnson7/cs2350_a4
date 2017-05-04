@@ -1,0 +1,276 @@
+/*Copyright (C) 2013 Jeremy Johnson*/
+
+html, body, h1, h2, h3, table, tr, td, th, p, ol, ul, li, dl, dt, dd{
+   margin: 0;
+   padding: 0;
+   font-family: "Times New Roman", Times, serif;
+}
+
+html, body{
+   height: 100%;
+   min-height: 100%;
+   background: #404040;
+}
+
+body{
+   overflow-y: scroll;
+}
+
+#container{
+   position: relative;
+   min-height: 100%;
+   max-width: 1024px;
+   margin-left: auto;
+   margin-right: auto;
+   table-layout: fixed;
+   height: 100%;
+}
+
+#header{
+   position: relative;
+   height: 2em;
+   line-height: 1.5em;
+   clear: both;
+   
+   background: #000000;
+   color: #B0B0B0;
+   vertical-align: middle;
+}
+
+#footer{
+   position: relative;
+   height: 2em;
+   line-height: 1.5em;
+   clear: both;
+   
+   background: #000000;
+   color: #B0B0B0;
+   vertical-align: middle;
+}
+
+.navbox *{
+   text-align: center;
+   text-decoration: none;
+   padding-left: 0.25em;
+   padding-right: 0.25em;
+}
+
+.navbox ul{
+   list-style: none;
+}
+
+ul.navbox li{
+   display: inline;
+}
+
+ul.navbox li+li{
+   padding-left: 1.25em;
+}
+
+.navlink{
+   color: #E0E0E0;
+}
+
+.navlink *{
+   color: #E0E0E0;
+   background: black;
+   text-align: center;
+   text-decoration: none;
+   padding-left: 0.25em;
+}
+
+.navlink a:link{
+   color: #E0E0E0;
+   text-decoration: none;
+}
+
+.navlink a:visited{
+   color: #E0E0E0;
+   text-decoration: none;
+}
+
+.navlink a:hover{
+   color: blue;
+   text-decoration: none;
+}
+
+.navlink a:active{
+   color: blue;
+   text-decoration: none;
+}
+
+.navcurrent{
+   color: #00F0F0;
+}
+
+.navcurrent *{
+   color: #00F0F0;
+   background: black;
+   text-align: center;
+   text-decoration: none;
+   padding-left: 0.25em;
+}
+
+.navcurrent a:link{
+   color: #00F0F0;
+   text-decoration: none;
+}
+
+.navcurrent a:visited{
+   color: #00F0F0;
+   text-decoration: none;
+}
+
+.navcurrent a:hover{
+   color: #00F0F0;
+   text-decoration: none;
+}
+
+.navcurrent a:active{
+   color: #00F0F0;
+   text-decoration: none;
+}
+
+#main{
+   position: relative;
+   overflow: auto;
+   padding-bottom: 2em;
+   top: 0em;
+   /*bottom: -2em;*/
+   
+   background: #E0E0E0;
+}
+
+.mainbox{
+   min-height: calc(100% - 4em);
+}
+
+td.mainbox *{
+   padding-top: 0.25em;
+   padding-bottom: 0.25em;
+   padding-left: 0.25em;
+   padding-right: 0.25em;
+}
+
+#content{
+   background: #E0E0E0;
+   text-align: left;
+   vertical-align: top;
+   
+   padding-top: 0.25em;
+   padding-bottom: 0.25em;
+   padding-left: 0.25em;
+   padding-right: 0.25em;
+}
+
+.contentbox{
+   /*color: #000000;*/
+   text-align: left;
+   vertical-align: top;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   /*font-size: 27pt;*/
+}
+
+.contentbox *{
+   line-height: 1.5em;
+}
+
+.contentbox hr{
+   padding: 0em;
+}
+
+.contentbox p{
+   padding-top: 0.25em;
+   padding-bottom: 0.25em;
+   text-align: justify;
+}
+
+.contentbox h1, .contentbox h2, .contentbox h3{
+   padding-top: 0em;
+   padding-bottom: 0.25em;
+}
+
+.contentbox img{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   text-align: justify;
+}
+
+.contentbox table{
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+   margin-left: 0.1em;
+   margin-right: 0.1em;
+   
+   padding: 0em;
+   border-collapse: collapse;
+}
+
+.contentbox td, .contentbox th{
+   height: 1.25em;
+   padding: 0.1em;
+   padding-left: 0.25em;
+   padding-right: 0.25em;
+   border-style: solid;
+   border-color: #606060;
+   white-space: nowrap;
+}
+
+.contentbox dl, .contentbox ul, .contentbox ol{
+   padding-top: 0.25em;
+   padding-bottom: 0.25em;
+}
+
+.contentbox ul, .contentbox ol{
+   padding-left: 1em;
+   list-style-positon: outside;
+}
+
+.contentbox dd + dt{
+   padding-top: 0.5em;
+}
+
+.contentbox dd + dd, .contentbox li + .contentbox li{
+   padding-top: 0.125em;
+}
+
+.contentbox dd, .contentbox li{
+   margin-left: 2em;
+   padding-left: 0em;
+}
+
+.formbox, .formbox table{
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+   margin-left: 0.1em;
+   margin-right: 0.1em;
+   
+   padding: 0em;
+   border-collapse: collapse;
+}
+
+.formbox td, .formbox th{
+   height: 1.75em;
+   padding: 0.1em;
+   border-style: none;
+   white-space: nowrap;
+}
+
+textarea, button, select, input, input *{
+   font-family: "Segoe UI", Arial, sans-serif;
+   /*font-family: "Courier New", Courier, monospace;*/
+   /*line-height: 1em;
+   padding: 0em;*/
+}
+
+button{
+   font-family: "Segoe UI", Arial, sans-serif;
+   /*font-family: "Courier New", Courier, monospace;*/
+   /*line-height: 1em;
+   padding: 0em;*/
+}
+
+.backwards{
+   transform: scale(-1, 1);
+}
